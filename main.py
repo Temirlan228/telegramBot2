@@ -19,7 +19,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS answers
                   answer TEXT)''')
 connection.close()
 
-bot = telebot.TeleBot('7137842657:AAEN9WRmVAT1J5qQw5RMzEjkoGAD7d83vfs')
+bot = telebot.TeleBot('7137842657:AAFScZ5hbO1O6stFJJexltVZOs0UG26Ddy0')
 chat_id = None
 
 
@@ -220,3 +220,5 @@ def check_ans(question_id, ans):
 
 
 bot.polling(none_stop=True)
+
+
